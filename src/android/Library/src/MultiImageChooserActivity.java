@@ -118,7 +118,7 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
     private boolean shouldRequestThumb = true;
 
     private FakeR fakeR;
-    private View abDoneView;
+//    private View abDoneView;
     private View abDiscardView;
 
     private ProgressDialog progress;
@@ -311,7 +311,7 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
 
     public void selectClicked() {
         abDiscardView.setEnabled(false);
-        abDoneView.setEnabled(false);
+//        abDoneView.setEnabled(false);
         progress.show();
 
         if (fileNames.isEmpty()) {
@@ -329,9 +329,9 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
      * Helper Methods
      ********************/
     private void updateAcceptButton() {
-        if (abDoneView != null) {
-            abDoneView.setEnabled(fileNames.size() != 0);
-        }
+//        if (abDoneView != null) {
+//            abDoneView.setEnabled(fileNames.size() != 0);
+//        }
     }
 
     private void setupHeader() {
