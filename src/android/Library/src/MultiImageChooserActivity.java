@@ -360,6 +360,15 @@ public class MultiImageChooserActivity extends AppCompatActivity implements
                 null
         );
 
+//        abDoneView = customActionBarView.findViewById(fakeR.getId("id", "actionbar_done"));
+//        abDoneView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // "Done"
+//                selectClicked();
+//            }
+//        });
+
         abDiscardView = customActionBarView.findViewById(fakeR.getId("id", "actionbar_discard"));
         abDiscardView.setOnClickListener(new View.OnClickListener() {
             @Override
